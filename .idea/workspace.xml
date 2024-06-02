@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6dbdb15d-ede9-479b-ac41-7040e11a7768" name="Changes" comment="add: DB 스키마 + 엔티티 생성" />
+    <list default="true" id="6dbdb15d-ede9-479b-ac41-7040e11a7768" name="Changes" comment="update : Product status enum화">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shj/wanted/entity/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shj/wanted/entity/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shj/wanted/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shj/wanted/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shj/wanted/entity/product/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/shj/wanted/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/shj/wanted/entity/product/ProductStatus.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,6 +71,7 @@
   "keyToString": {
     "Gradle.Build wanted-preonboarding-challenge-backend-20.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.WantedApplication.executor": "Run",
     "git-widget-placeholder": "feature/seonghoJoo",
     "kotlin-language-version-configured": "true",
@@ -104,7 +110,7 @@
       <option name="presentableId" value="Default" />
       <updated>1717307033074</updated>
       <workItem from="1717307034130" duration="143000" />
-      <workItem from="1717308799422" duration="3290000" />
+      <workItem from="1717308799422" duration="3563000" />
     </task>
     <task id="LOCAL-00001" summary="init: start project">
       <option name="closed" value="true" />
@@ -154,7 +160,15 @@
       <option name="project" value="LOCAL" />
       <updated>1717311941297</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update : Product status enum화">
+      <option name="closed" value="true" />
+      <created>1717312250561</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1717312250561</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,6 +189,7 @@
     <MESSAGE value="init: start project" />
     <MESSAGE value="add: H2 DB Setting" />
     <MESSAGE value="add: DB 스키마 + 엔티티 생성" />
-    <option name="LAST_COMMIT_MESSAGE" value="add: DB 스키마 + 엔티티 생성" />
+    <MESSAGE value="update : Product status enum화" />
+    <option name="LAST_COMMIT_MESSAGE" value="update : Product status enum화" />
   </component>
 </project>

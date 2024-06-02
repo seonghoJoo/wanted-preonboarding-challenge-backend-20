@@ -1,7 +1,6 @@
-package com.shj.wanted.entity.product;
+package com.shj.wanted.entity;
 
 
-import com.shj.wanted.entity.Member;
 import jakarta.persistence.*;
 import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;
@@ -31,6 +30,21 @@ public class Product {
     @Enumerated(EnumType.STRING)
     @Column(nullable = false)
     private ProductStatus status;
+    public enum ProductStatus {
+        SALE("판매중"),
+        RESERVED("예약중"),
+        COMPLETED("완료");
+
+        private final String description;
+
+        ProductStatus(String description) {
+            this.description = description;
+        }
+
+        public String getDescription() {
+            return description;
+        }
+    }
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "seller_id", nullable = false)
