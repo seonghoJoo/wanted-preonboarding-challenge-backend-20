@@ -2,6 +2,7 @@ package com.shj.wanted.entity;
 
 
 
+import com.shj.wanted.entity.product.Product;
 import jakarta.persistence.*;
 import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;
