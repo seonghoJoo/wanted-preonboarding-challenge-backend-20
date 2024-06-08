@@ -39,8 +39,9 @@ out/
 .idea_modules/
 
 # Gradle
-.gradle
+.gradle/
 build/
+.build/
 !gradle/wrapper/gradle-wrapper.jar
 
 # Ignore Gradle GUI config
